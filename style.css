@@ -1,10 +1,17 @@
 .octodex{
   /* Unordered List*/
-
+  list-style: none;
 }
 .octocat{
   /* List items (pictures + everything else) */
+  width: 33%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
+}
+.octocat img{
+  width: 100%
 }
 .image-footer{
 
