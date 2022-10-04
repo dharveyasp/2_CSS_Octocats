@@ -1,12 +1,14 @@
 *{
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 .octodex{
   /* Unordered List*/
   list-style: none;
   display: flex;
   justify-content: space-around;
+  padding-block: 5px;
 }
 .octocat{
   /* List items (pictures + everything else) */
@@ -14,23 +16,27 @@
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 2px solid gray;
-  border-radius: 5px;
 }
-.octocat img{
-  width: 95%;
+.octocat > a > img{
+  max-width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 .image-footer{
   display: flex;
   width: 100%;
   justify-content: flex-end;
   align-items: center;
+  border-bottom: 1px solid gray;
+}
+.image-number{
+  padding: 2px;
 }
 .image-caption > span{
-padding: 2px;
+  padding: 2px;
 }
 .image-caption > a{
-padding: 2px;
+  padding: 2px;
 }
 .image-caption{
   display: inline-flex;
