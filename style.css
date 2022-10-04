@@ -2,13 +2,15 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  font-weight: Bold;
 }
 .octodex{
   /* Unordered List*/
   list-style: none;
   display: flex;
   justify-content: space-around;
-  padding-block: 5px;
+  padding-block: 20px;
 }
 .octocat{
   /* List items (pictures + everything else) */
@@ -19,7 +21,7 @@
 }
 .octocat > a > img{
   max-width: 100%;
-  border: 1px solid gray;
+  border: 1px solid #D7D7D7;
   border-radius: 5px;
 }
 .image-footer{
@@ -27,16 +29,19 @@
   width: 100%;
   justify-content: flex-end;
   align-items: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #D7D7D7;
 }
 .image-number{
   padding: 2px;
+  color: #CACACA;
 }
 .image-caption > span{
-  padding: 2px;
+  padding: 4px;
+  color: #777879;
 }
 .image-caption > a{
-  padding: 2px;
+  color: #333333;
+  text-decoration-line: none;
 }
 .image-caption{
   display: inline-flex;
@@ -60,5 +65,5 @@
 .authors img{
   max-width: 100%;
   max-height: 100%;
-  border-radius: 5px;
+  border-radius: 7px;
 }
