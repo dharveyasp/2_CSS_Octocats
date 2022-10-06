@@ -9,12 +9,12 @@
   /* Unordered List*/
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-block: 20px;
 }
 .octocat{
   /* List items (pictures + everything else) */
-  width: 30%;
+  width: 31%;
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -22,7 +22,7 @@
 .octocat > a > img{
   max-width: 100%;
   border: 1px solid #D7D7D7;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 .image-footer{
   display: flex;
