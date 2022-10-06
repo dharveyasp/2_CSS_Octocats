@@ -35,6 +35,9 @@
   padding: 2px;
   color: #CACACA;
 }
+.image-number:before{
+  content: "#"
+}
 .image-caption > span{
   padding: 4px;
   color: #777879;
@@ -60,7 +63,7 @@
   justify-content: flex-end;
 }
 .authors a{
-  width: 40px;
+  width: 35px;
 }
 .authors img{
   max-width: 100%;
